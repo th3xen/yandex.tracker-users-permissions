@@ -19,6 +19,8 @@ func main() {
 
 	users := users.AllUsers()
 
+	// реализовать через горутины
+	
 	for _, user := range users {
 		// fmt.Printf("Пользователь: %v \n", user.Display)
 		queues := queues.AllQueues()
